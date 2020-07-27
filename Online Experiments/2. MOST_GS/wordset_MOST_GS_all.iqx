@@ -1,0 +1,824 @@
+﻿<item prac_word_set1>
+/ 1 = "heart"
+/ 2 = "love"
+/ 3 = "red"
+/ 4 = "black"
+/ 5 = "outline"
+/ 6 = "color"
+</item>
+<item prac_word_set2>
+/ 1 = "face"
+/ 2 = "yellow"
+/ 3 = "eyes"
+/ 4 = "smile"
+/ 5 = "happy"
+/ 6 = "emoji"
+</item>
+<item prac_word_set3>
+/ 1 = "mountain"
+/ 2 = "sun"
+/ 3 = "cloud"
+/ 4 = "landscape"
+/ 5 = "blue"
+/ 6 = "sky"
+</item>
+<item word_set_1>
+/ 1 = "cow"
+/ 2 = "farm"
+/ 3 = "pasture"
+/ 4 = "horse"
+/ 5 = "sunny"
+/ 6 = "green"
+</item>
+<item word_set_2>
+/ 1 = "shop"
+/ 2 = "fruit"
+/ 3 = "apple"
+/ 4 = "market"
+/ 5 = "woman"
+/ 6 = "person"
+</item>
+<item word_set_3>
+/ 1 = "tree"
+/ 2 = "water"
+/ 3 = "daytime"
+/ 4 = "people"
+/ 5 = "city"
+/ 6 = "skyline"
+</item>
+<item word_set_4>
+/ 1 = "hippo"
+/ 2 = "water"
+/ 3 = "family"
+/ 4 = "animal"
+/ 5 = "rhino"
+/ 6 = "grey"
+</item>
+<item word_set_5>
+/ 1 = "statue"
+/ 2 = "love"
+/ 3 = "couple"
+/ 4 = "people"
+/ 5 = "daytime"
+/ 6 = "group"
+</item>
+<item word_set_6>
+/ 1 = "water"
+/ 2 = "light"
+/ 3 = "calm"
+/ 4 = "blue"
+/ 5 = "beach"
+/ 6 = "ocean"
+</item>
+<item word_set_7>
+/ 1 = "sky"
+/ 2 = "satellite"
+/ 3 = "bright"
+/ 4 = "sunny"
+/ 5 = "boat"
+/ 6 = "grass"
+</item>
+<item word_set_8>
+/ 1 = "lava"
+/ 2 = "fire"
+/ 3 = "burn"
+/ 4 = "volcano"
+/ 5 = "flame"
+/ 6 = "plasma"
+</item>
+<item word_set_9>
+/ 1 = "goat"
+/ 2 = "animal"
+/ 3 = "farm"
+/ 4 = "forest"
+/ 5 = "sky"
+/ 6 = "tree"
+</item>
+<item word_set_10>
+/ 1 = "hose"
+/ 2 = "water"
+/ 3 = "vest"
+/ 4 = "stand"
+/ 5 = "person"
+/ 6 = "outside"
+</item>
+<item word_set_11>
+/ 1 = "gallery"
+/ 2 = "people"
+/ 3 = "art"
+/ 4 = "woman"
+/ 5 = "artwork"
+/ 6 = "musuem"
+</item>
+<item word_set_12>
+/ 1 = "study"
+/ 2 = "pen"
+/ 3 = "desk"
+/ 4 = "write"
+/ 5 = "paper"
+/ 6 = "girl"
+</item>
+<item word_set_13>
+/ 1 = "muslim"
+/ 2 = "pray"
+/ 3 = "man"
+/ 4 = "religion"
+/ 5 = "kneel"
+/ 6 = "worship"
+</item>
+<item word_set_14>
+/ 1 = "swing"
+/ 2 = "golf"
+/ 3 = "male"
+/ 4 = "cap"
+/ 5 = "water"
+/ 6 = "sport"
+</item>
+<item word_set_15>
+/ 1 = "crowd"
+/ 2 = "bus"
+/ 3 = "city"
+/ 4 = "people"
+/ 5 = "market"
+/ 6 = "daytime"
+</item>
+<item word_set_16>
+/ 1 = "people"
+/ 2 = "talk"
+/ 3 = "speak"
+/ 4 = "stand"
+/ 5 = "boy"
+/ 6 = "school"
+</item>
+<item word_set_17>
+/ 1 = "corner"
+/ 2 = "car"
+/ 3 = "busy"
+/ 4 = "street"
+/ 5 = "road"
+/ 6 = "sidewalk"
+</item>
+<item word_set_18>
+/ 1 = "railway-track"
+/ 2 = "sunny"
+/ 3 = "sand"
+/ 4 = "sky"
+/ 5 = "train-track"
+/ 6 = "railroad"
+</item>
+<item word_set_19>
+/ 1 = "field"
+/ 2 = "tractor"
+/ 3 = "farm"
+/ 4 = "harvest"
+/ 5 = "sunny"
+/ 6 = "work"
+</item>
+<item word_set_20>
+/ 1 = "relax"
+/ 2 = "sit"
+/ 3 = "socialize"
+/ 4 = "bar"
+/ 5 = "stool"
+/ 6 = "talk"
+</item>
+<item word_set_21>
+/ 1 = "sky"
+/ 2 = "helicopter"
+/ 3 = "fly"
+/ 4 = "man"
+/ 5 = "land"
+/ 6 = "pilot"
+</item>
+<item word_set_22>
+/ 1 = "hut"
+/ 2 = "mud"
+/ 3 = "poor"
+/ 4 = "house"
+/ 5 = "tree"
+/ 6 = "sand"
+</item>
+<item word_set_23>
+/ 1 = "dance"
+/ 2 = "fun"
+/ 3 = "hat"
+/ 4 = "people"
+/ 5 = "costume"
+/ 6 = "colorful"
+</item>
+<item word_set_24>
+/ 1 = "type"
+/ 2 = "newspaper"
+/ 3 = "book"
+/ 4 = "white"
+/ 5 = "write"
+/ 6 = "screen"
+</item>
+<item word_set_25>
+/ 1 = "grass"
+/ 2 = "mother"
+/ 3 = "son"
+/ 4 = "play"
+/ 5 = "boy"
+/ 6 = "garden"
+</item>
+<item word_set_26>
+/ 1 = "sheep"
+/ 2 = "grass"
+/ 3 = "sit"
+/ 4 = "rabbit"
+/ 5 = "animal"
+/ 6 = "dirt"
+</item>
+<item word_set_27>
+/ 1 = "game"
+/ 2 = "watch"
+/ 3 = "family"
+/ 4 = "person"
+/ 5 = "market"
+/ 6 = "woman"
+</item>
+<item word_set_28>
+/ 1 = "ship"
+/ 2 = "cruise"
+/ 3 = "ocean"
+/ 4 = "water"
+/ 5 = "blue"
+/ 6 = "float"
+</item>
+<item word_set_29>
+/ 1 = "street"
+/ 2 = "shop"
+/ 3 = "car"
+/ 4 = "store"
+/ 5 = "people"
+/ 6 = "build"
+</item>
+<item word_set_30>
+/ 1 = "sport"
+/ 2 = "girl"
+/ 3 = "room"
+/ 4 = "woman"
+/ 5 = "dress"
+/ 6 = "stand"
+</item>
+<item word_set_31>
+/ 1 = "hat"
+/ 2 = "telephone"
+/ 3 = "person"
+/ 4 = "cap"
+/ 5 = "talk"
+/ 6 = "road"
+</item>
+<item word_set_32>
+/ 1 = "mall"
+/ 2 = "shop"
+/ 3 = "indoor"
+/ 4 = "street"
+/ 5 = "people"
+/ 6 = "many"
+</item>
+<item word_set_33>
+/ 1 = "boat"
+/ 2 = "river"
+/ 3 = "build"
+/ 4 = "city"
+/ 5 = "town"
+/ 6 = "colorful"
+</item>
+<item word_set_34>
+/ 1 = "sand"
+/ 2 = "rock"
+/ 3 = "water"
+/ 4 = "mountain"
+/ 5 = "stone"
+/ 6 = "island"
+</item>
+<item word_set_35>
+/ 1 = "shop"
+/ 2 = "cart"
+/ 3 = "person"
+/ 4 = "shoping-cart"
+/ 5 = "shelf"
+/ 6 = "people"
+</item>
+<item word_set_36>
+/ 1 = "truck"
+/ 2 = "traffic"
+/ 3 = "highway"
+/ 4 = "bike"
+/ 5 = "van"
+/ 6 = "road"
+</item>
+<item word_set_37>
+/ 1 = "coffee"
+/ 2 = "breakfast"
+/ 3 = "cup"
+/ 4 = "food"
+/ 5 = "hot"
+/ 6 = "plate"
+</item>
+<item word_set_38>
+/ 1 = "ball"
+/ 2 = "play"
+/ 3 = "bat"
+/ 4 = "game"
+/ 5 = "hit"
+/ 6 = "hand"
+</item>
+<item word_set_39>
+/ 1 = "car"
+/ 2 = "road"
+/ 3 = "mountain"
+/ 4 = "sky"
+/ 5 = "open-road"
+/ 6 = "drive"
+</item>
+<item word_set_40>
+/ 1 = "car"
+/ 2 = "busy"
+/ 3 = "building"
+/ 4 = "sunny"
+/ 5 = "daytime"
+/ 6 = "people"
+</item>
+<item word_absent_1>
+/ 1 = "disco"
+/ 2 = "boat"
+/ 3 = "maple"
+/ 4 = "telephone"
+/ 5 = "smoke"
+/ 6 = "ceil"
+/ 7 = "travel"
+/ 8 = "pop"
+/ 9 = "canine"
+/ 10 = "red-bucket"
+</item>
+<item word_absent_2>
+/ 1 = "box"
+/ 2 = "excitement"
+/ 3 = "chalk-board"
+/ 4 = "festival"
+/ 5 = "pixelated"
+/ 6 = "squirrel"
+/ 7 = "silver"
+/ 8 = "bend"
+/ 9 = "propose"
+/ 10 = "laugh"
+</item>
+<item word_absent_3>
+/ 1 = "chimney"
+/ 2 = "mixer"
+/ 3 = "kneel"
+/ 4 = "sail"
+/ 5 = "swirl"
+/ 6 = "herd"
+/ 7 = "abstract"
+/ 8 = "party"
+/ 9 = "highway"
+/ 10 = "helicopter"
+</item>
+<item word_absent_4>
+/ 1 = "flash"
+/ 2 = "playful"
+/ 3 = "clear"
+/ 4 = "athlete"
+/ 5 = "tanker"
+/ 6 = "owner"
+/ 7 = "slope"
+/ 8 = "ride"
+/ 9 = "rod"
+/ 10 = "blank"
+</item>
+<item word_absent_5>
+/ 1 = "leather"
+/ 2 = "tea"
+/ 3 = "shelf"
+/ 4 = "bicycle"
+/ 5 = "plaid"
+/ 6 = "tail"
+/ 7 = "worker"
+/ 8 = "phone"
+/ 9 = "green"
+/ 10 = "speaker"
+</item>
+<item word_absent_6>
+/ 1 = "tattoo"
+/ 2 = "bottle"
+/ 3 = "hilly"
+/ 4 = "independence"
+/ 5 = "massage"
+/ 6 = "old-woman"
+/ 7 = "think"
+/ 8 = "concrete"
+/ 9 = "big"
+/ 10 = "parent"
+</item>
+<item word_absent_7>
+/ 1 = "hiker"
+/ 2 = "transport"
+/ 3 = "book-bag"
+/ 4 = "red-dress"
+/ 5 = "social"
+/ 6 = "reflection"
+/ 7 = "ripple"
+/ 8 = "flag"
+/ 9 = "perform"
+/ 10 = "hippo"
+</item>
+<item word_absent_8>
+/ 1 = "snowy"
+/ 2 = "open"
+/ 3 = "mug"
+/ 4 = "escalator"
+/ 5 = "party"
+/ 6 = "adventurous"
+/ 7 = "fancy"
+/ 8 = "group"
+/ 9 = "shirtless"
+/ 10 = "grain"
+</item>
+<item word_absent_9>
+/ 1 = "teen"
+/ 2 = "cup"
+/ 3 = "track"
+/ 4 = "linen"
+/ 5 = "light-house"
+/ 6 = "paper"
+/ 7 = "candle"
+/ 8 = "safety"
+/ 9 = "toy"
+/ 10 = "shirtless"
+</item>
+<item word_absent_10>
+/ 1 = "musician"
+/ 2 = "tropical"
+/ 3 = "carriage"
+/ 4 = "loop"
+/ 5 = "stroller"
+/ 6 = "flash"
+/ 7 = "hindu"
+/ 8 = "paint-brush"
+/ 9 = "statue"
+/ 10 = "tempt"
+</item>
+<item word_absent_11>
+/ 1 = "dance"
+/ 2 = "shack"
+/ 3 = "celebrate"
+/ 4 = "fetch"
+/ 5 = "price"
+/ 6 = "check"
+/ 7 = "buffalo"
+/ 8 = "windy"
+/ 9 = "flag"
+/ 10 = "firewood"
+</item>
+<item word_absent_12>
+/ 1 = "dancer"
+/ 2 = "blender"
+/ 3 = "soil"
+/ 4 = "treadmill"
+/ 5 = "hat"
+/ 6 = "rail-track"
+/ 7 = "unknown"
+/ 8 = "ceremony"
+/ 9 = "white-dress"
+/ 10 = "noise"
+</item>
+<item word_absent_13>
+/ 1 = "basket"
+/ 2 = "lay"
+/ 3 = "wheel"
+/ 4 = "raattinam"
+/ 5 = "pinwheel"
+/ 6 = "number"
+/ 7 = "reach"
+/ 8 = "sheet"
+/ 9 = "right"
+/ 10 = "text"
+</item>
+<item word_absent_14>
+/ 1 = "mash"
+/ 2 = "adventurous"
+/ 3 = "pedestrian"
+/ 4 = "crawl"
+/ 5 = "medal"
+/ 6 = "sand"
+/ 7 = "touch"
+/ 8 = "shirt"
+/ 9 = "hilly"
+/ 10 = "treadmill"
+</item>
+<item word_absent_15>
+/ 1 = "rich"
+/ 2 = "aircraft"
+/ 3 = "school"
+/ 4 = "ponytail"
+/ 5 = "stand"
+/ 6 = "beauty"
+/ 7 = "even"
+/ 8 = "bean"
+/ 9 = "underneath"
+/ 10 = "high"
+</item>
+<item word_absent_16>
+/ 1 = "asphalt"
+/ 2 = "escape"
+/ 3 = "explosion"
+/ 4 = "harvest"
+/ 5 = "bird"
+/ 6 = "bundle-three"
+/ 7 = "hay"
+/ 8 = "graphic"
+/ 9 = "break"
+/ 10 = "gun"
+</item>
+<item word_absent_17>
+/ 1 = "tennis-ball"
+/ 2 = "shore-line"
+/ 3 = "spectacle"
+/ 4 = "talk"
+/ 5 = "orange"
+/ 6 = "explosion"
+/ 7 = "trolley"
+/ 8 = "eat"
+/ 9 = "scream"
+/ 10 = "barren"
+</item>
+<item word_absent_18>
+/ 1 = "cowboy"
+/ 2 = "graze"
+/ 3 = "black-dress"
+/ 4 = "light"
+/ 5 = "crack"
+/ 6 = "issue"
+/ 7 = "many"
+/ 8 = "touch"
+/ 9 = "tall-grass"
+/ 10 = "clothe"
+</item>
+<item word_absent_19>
+/ 1 = "crawl"
+/ 2 = "gallery"
+/ 3 = "countryside"
+/ 4 = "phone"
+/ 5 = "treadmill"
+/ 6 = "hand-up"
+/ 7 = "nightstand"
+/ 8 = "gingerbread"
+/ 9 = "purchase"
+/ 10 = "cattle"
+</item>
+<item word_absent_20>
+/ 1 = "dive"
+/ 2 = "sculpture"
+/ 3 = "meal"
+/ 4 = "green-wall"
+/ 5 = "beach"
+/ 6 = "oxygen-mask"
+/ 7 = "camp"
+/ 8 = "fair"
+/ 9 = "elderly"
+/ 10 = "wait"
+</item>
+<item word_absent_21>
+/ 1 = "worry"
+/ 2 = "feeder"
+/ 3 = "struggle"
+/ 4 = "gang"
+/ 5 = "talk"
+/ 6 = "eye-chart"
+/ 7 = "speak"
+/ 8 = "bucket"
+/ 9 = "pastry"
+/ 10 = "massage"
+</item>
+<item word_absent_22>
+/ 1 = "artwork"
+/ 2 = "tractor"
+/ 3 = "sculpture"
+/ 4 = "harbor"
+/ 5 = "cemetery"
+/ 6 = "cheese"
+/ 7 = "cupboard"
+/ 8 = "trap"
+/ 9 = "greece"
+/ 10 = "pyramid"
+</item>
+<item word_absent_23>
+/ 1 = "competition"
+/ 2 = "depress"
+/ 3 = "canoe"
+/ 4 = "white-water"
+/ 5 = "noisy"
+/ 6 = "deflate"
+/ 7 = "square"
+/ 8 = "couple"
+/ 9 = "affection"
+/ 10 = "show"
+</item>
+<item word_absent_24>
+/ 1 = "team"
+/ 2 = "tyre"
+/ 3 = "drill"
+/ 4 = "tail"
+/ 5 = "oil"
+/ 6 = "honey"
+/ 7 = "record"
+/ 8 = "extinguish"
+/ 9 = "owner"
+/ 10 = "beautiful"
+</item>
+<item word_absent_25>
+/ 1 = "smelly"
+/ 2 = "sleep"
+/ 3 = "ferris-wheel"
+/ 4 = "car"
+/ 5 = "na"
+/ 6 = "sand"
+/ 7 = "ladder"
+/ 8 = "leave-orange"
+/ 9 = "cart"
+/ 10 = "ride"
+</item>
+<item word_absent_26>
+/ 1 = "lion"
+/ 2 = "bake"
+/ 3 = "sand"
+/ 4 = "line"
+/ 5 = "dry"
+/ 6 = "music"
+/ 7 = "path"
+/ 8 = "archway"
+/ 9 = "backpack"
+/ 10 = "sing"
+</item>
+<item word_absent_27>
+/ 1 = "technology"
+/ 2 = "chip"
+/ 3 = "mountain"
+/ 4 = "ceremony"
+/ 5 = "charmer"
+/ 6 = "prayer"
+/ 7 = "issue"
+/ 8 = "sight"
+/ 9 = "actor"
+/ 10 = "recycle"
+</item>
+<item word_absent_28>
+/ 1 = "black-letter"
+/ 2 = "tongue"
+/ 3 = "animal"
+/ 4 = "smart"
+/ 5 = "fit"
+/ 6 = "house"
+/ 7 = "aisle"
+/ 8 = "speed-boat"
+/ 9 = "boss"
+/ 10 = "van"
+</item>
+<item word_absent_29>
+/ 1 = "pilot"
+/ 2 = "cash"
+/ 3 = "team"
+/ 4 = "white-paper"
+/ 5 = "US-flag"
+/ 6 = "eiffel-tower"
+/ 7 = "lava"
+/ 8 = "button"
+/ 9 = "pear"
+/ 10 = "frog"
+</item>
+<item word_absent_30>
+/ 1 = "paintbrush"
+/ 2 = "interstate"
+/ 3 = "counter"
+/ 4 = "touch"
+/ 5 = "laptop"
+/ 6 = "market"
+/ 7 = "leisure"
+/ 8 = "church"
+/ 9 = "umbrella"
+/ 10 = "fountain"
+</item>
+<item word_absent_31>
+/ 1 = "hand-stand"
+/ 2 = "binoculars"
+/ 3 = "escape"
+/ 4 = "pour"
+/ 5 = "starburst"
+/ 6 = "photographer"
+/ 7 = "cable"
+/ 8 = "nature"
+/ 9 = "yellow"
+/ 10 = "horizon"
+</item>
+<item word_absent_32>
+/ 1 = "joker"
+/ 2 = "pedestrian"
+/ 3 = "bow"
+/ 4 = "together"
+/ 5 = "alcohol"
+/ 6 = "rail-track"
+/ 7 = "christmas"
+/ 8 = "sea-creature"
+/ 9 = "bend"
+/ 10 = "cash"
+</item>
+<item word_absent_33>
+/ 1 = "daylight"
+/ 2 = "donkey"
+/ 3 = "cricket"
+/ 4 = "skyline"
+/ 5 = "chappal"
+/ 6 = "religious"
+/ 7 = "gray"
+/ 8 = "asian"
+/ 9 = "piano"
+/ 10 = "hiker"
+</item>
+<item word_absent_34>
+/ 1 = "observatory"
+/ 2 = "knife"
+/ 3 = "skyscraper"
+/ 4 = "mug"
+/ 5 = "eight"
+/ 6 = "happy"
+/ 7 = "collar"
+/ 8 = "joker"
+/ 9 = "two"
+/ 10 = "student"
+</item>
+<item word_absent_35>
+/ 1 = "radio"
+/ 2 = "pier"
+/ 3 = "france"
+/ 4 = "ornament"
+/ 5 = "price"
+/ 6 = "indian"
+/ 7 = "exercise"
+/ 8 = "stone"
+/ 9 = "New York"
+/ 10 = "meal"
+</item>
+<item word_absent_36>
+/ 1 = "boat"
+/ 2 = "swim"
+/ 3 = "small-girl"
+/ 4 = "rush"
+/ 5 = "logo"
+/ 6 = "sell"
+/ 7 = "back"
+/ 8 = "lane"
+/ 9 = "railway-track"
+/ 10 = "crop-field"
+</item>
+<item word_absent_37>
+/ 1 = "hay"
+/ 2 = "chat"
+/ 3 = "antler"
+/ 4 = "giant-wheel"
+/ 5 = "hug"
+/ 6 = "rest"
+/ 7 = "furniture"
+/ 8 = "metropolis"
+/ 9 = "vendor"
+/ 10 = "beach"
+</item>
+<item word_absent_38>
+/ 1 = "sunset"
+/ 2 = "volleyball"
+/ 3 = "road"
+/ 4 = "monster-truck"
+/ 5 = "interstate"
+/ 6 = "geyser"
+/ 7 = "tunnel"
+/ 8 = "sing"
+/ 9 = "fire"
+/ 10 = "sell"
+</item>
+<item word_absent_39>
+/ 1 = "fry"
+/ 2 = "actor"
+/ 3 = "cowboy"
+/ 4 = "animal"
+/ 5 = "study"
+/ 6 = "shave"
+/ 7 = "rhinoceros"
+/ 8 = "currency"
+/ 9 = "rhino"
+/ 10 = "disco"
+</item>
+<item word_absent_40>
+/ 1 = "peaceful"
+/ 2 = "star"
+/ 3 = "shave"
+/ 4 = "sea-shore"
+/ 5 = "sit-up"
+/ 6 = "hilly"
+/ 7 = "crash"
+/ 8 = "vinyl"
+/ 9 = "coyote"
+/ 10 = "entertainment"
+</item>

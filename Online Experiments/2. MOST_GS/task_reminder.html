@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>Task Reminder</title>
+		<link rel="stylesheet" href="style.css" type="text/css" />
+	</head>
+	<body>
+		<div class="header">
+			<div class="logo"><img class="img-large" src="monash-logo-mono.svg" alt="Monash University Logo"></div>
+			<div class="title">Word Matching Experiment</div>
+		</div>
+		<div class="main">
+			<h1>Task Reminder</h1>
+			<p>Let's recap the experiment. Your task is to judge descriptors for 5 images.</p>
+			<ol>
+				<li>
+					First, you see a cross-hair at the center of the screen. Focus on the cross and do not move your eyes.
+					<div class="instruct_fig">
+						<img class="img-small" src="practice_fixation_cross.jpg" onmouseover="image_zoom(this);" onmouseout="image_zoom_hidden(this);"></img>
+					</div>
+				</li>
+
+				<li>
+					Then, an image flashes on the screen, before it's covered by a mask. Images will  be shown for only a very short time (a fraction of a second).
+					<div class="instruct_fig">
+						<img class="img-small" src="practice_stimuli.jpg" onmouseover="image_zoom(this);" onmouseout="image_zoom_hidden(this);">
+						<img class="img-small" src="practice_mask.jpg" onmouseover="image_zoom(this);" onmouseout="image_zoom_hidden(this);">
+					</img></div>
+				</li>
+				<li>
+					When the mask disappears, a response screen will appear. Activate the task by clicking the center button. Once you click the button, a word will appear that you think either does, or does not, describe part of the image. 
+					<div class="instruct_fig"><img class="img-small" src="example_word1.jpg" onmouseover="image_zoom(this);" onmouseout="image_zoom_hidden(this);"></img></div>
+				</li>
+
+				<li>
+					Your task is to judge whether the word is related to the image or not and how confident you are. The left half of the responses mean No [ N ] the word does not describe the image. The right half means Yes [ Y ]. The stronger you feel about the word, the higher the number you should choose (Min = 1, Max = 4).
+					<div class="instruct_fig"><img class="img-small" src="example_word2.jpg" onmouseover="image_zoom(this);" onmouseout="image_zoom_hidden(this);"></img></div>
+				</li>
+				<li>
+					In the example above, the given word [ <b>Anaconda</b> ] is clearly NOT related to the image. The word [ <b>Bull</b> ] clearly is. Other words may be less clear, and will require your best judgement.
+				</li>
+			</ol>
+			<p class="warning-instructions">When you press the [Space] bar, you will commence the next Block. An image will be presented at the very start, so get ready!</p>
+		</div>
+	</body>
+</html>

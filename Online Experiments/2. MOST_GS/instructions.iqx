@@ -1,0 +1,65 @@
+﻿
+<htmlpage thanks>
+/ file = "complete.html"
+</htmlpage>
+
+<htmlpage task_reminder>
+/ file = "task_reminder.html"
+</htmlpage>
+
+<htmlpage block1_prepage>
+/ file = "block1_prepage.html"
+</htmlpage>
+
+
+<page intro>
+^^^Word Probe Task
+^^Welcome and thank you for participating in this task. 
+^^This task requires that you have conscious experiences. If you do not have a rich inner experience, please press Ctrl+Q now to end the script.
+</page>
+
+<page task>
+Word Probe Task Instructions:^^
+On each trial, an image will be displayed followed by a sequence of descriptor words. Your task is to decide whether each word describes the presented image. ^^
+</page>
+
+<page taskreminder> 
+Reminder: does the word describe (part of) the presented image? ^^
+</page>
+
+<page end>
+The Task is now concluded. 
+^^This task illustrates the richness of visual experience from a momentary glimpse of an image. Typically, people can report many details about a briefly presented image.
+</page>
+
+<instruct>
+/ nextkey = (" ")
+/ lastlabel = ("Press the spacebar to continue")
+/ nextlabel = ("Press the spacebar to continue")
+/ fontstyle = ("Arial", 16pt)
+</instruct>
+
+<defaults>
+/canvasaspectratio = (4,3)
+/minimumversion = "5.0.0.0"
+/ fontstyle = ("Arial", 1.75%, false, false, false, false, 5, 1)
+</defaults>
+
+<values>
+/ MYfontstyle = "Avenir Next"
+/ MYfontsize = 2%
+/ textPosition = 46
+/ boldText = 0
+</values>
+
+<text taskreminder>  
+/ items = ("Is the word a good description of the image or feature?")
+/ position = (50, 15)
+/ txcolor = (0, 0, 255)
+/ fontstyle = ("Courier New", 12pt)
+</text>
+
+<text focuspoint>  
+/ items = ("          +          ")
+/ fontstyle = ("Courier New", 50pt)
+</text>
