@@ -1,0 +1,160 @@
+﻿<item response_no_element>
+/1 = "N_1.png"
+/2 = "N_2.png"
+/3 = "N_3.png"
+/4 = "N_4.png"
+</item>
+
+<item response_yes_element>
+/1 = "Y_1.png"
+/2 = "Y_2.png"
+/3 = "Y_3.png"
+/4 = "Y_4.png"
+</item>
+
+<item response_instruct_element>
+/1 = "confidence.png"
+/2 = "guessing.png"
+/3 = "respond_yes.png"
+/4 = "respond_no.png"
+/5 = "reveal.png"
+/6 = "Definitely_NO.png"
+/7 = "Definitely_YES.png"
+/8 = "unsure_no.png"
+/9 = "unsure_yes.png"
+</item>
+
+<picture no_1>
+/ items = response_no_element 
+/ select = 1
+/ position = (45%, 59%)
+/ size = (8%, 8%)
+/ erase = false
+</picture>
+
+<picture no_2>
+/ items = response_no_element 
+/ select = 2
+/ position = (40%, 53%)
+/ size = (8%, 8%)
+/ erase = false
+</picture>
+
+<picture no_3>
+/ items = response_no_element 
+/ select = 3
+/ position = (40%, 47%)
+/ size = (8%, 8%)
+/ erase = false
+</picture>
+
+<picture no_4>
+/ items = response_no_element 
+/ select = 4
+/ position = (45%, 41%)
+/ size = (8%, 8%)
+/ erase = false
+</picture>
+
+<picture yes_1>
+/ items = response_yes_element
+/ select = 1
+/ position = (55%, 59%)
+/ size = (8%, 8%)
+/ erase = false
+</picture>
+
+<picture yes_2>
+/ items = response_yes_element
+/ select = 2
+/ position = (60%, 53%)
+/size = (8%, 8%)
+/ erase = false
+</picture>
+
+<picture yes_3>
+/ items = response_yes_element
+/ select = 3
+/ position = (60%, 47%)
+/ size = (8%, 8%)
+/ erase = false
+</picture>
+
+<picture yes_4>
+/ items = response_yes_element
+/ select = 4
+/ position = (55%, 41%)
+/ size = (8%, 8%)
+/ erase = false
+</picture>
+
+<picture confidence>
+/ items = response_instruct_element
+/ select = 1
+/ position = (50%, 35%)
+/ size = (12%, 12%)
+/ erase = false
+</picture>
+
+<picture guessing>
+/ items = response_instruct_element
+/ select = 2
+/ position = (50%, 65%)
+/ size = (11%, 11%)
+/ erase = false
+</picture>
+
+<picture yes>
+/ items = response_instruct_element
+/ select = 3
+/ position = (55%, 50%)
+/ size = (5%, 5%)
+/ erase = false
+</picture>
+
+<picture no>
+/ items = response_instruct_element
+/ select = 4
+/ position = (45%, 50%)
+/ size = (5%, 5%)
+/ erase = false
+</picture>
+
+<picture reveal>
+/ items = response_instruct_element
+/ select = 5
+/ position = (50%, 50%)
+/ size = (5%, 5%)
+</picture>
+
+<picture definitely_no>
+/ items = response_instruct_element
+/ select = 6
+/ position = (35%, 41%)
+/ size = (12%, 12%)
+/ erase = false
+</picture>
+
+<picture definitely_yes>
+/ items = response_instruct_element
+/ select = 7
+/ position = (65%, 41%)
+/ size = (12%, 12%)
+/ erase = false
+</picture>
+
+<picture unsure_no>
+/ items = response_instruct_element
+/ select = 8
+/ position = (35%, 59%)
+/ size = (12%, 12%)
+/ erase = false
+</picture>
+
+<picture unsure_yes>
+/ items = response_instruct_element
+/ select = 9
+/ position = (65%, 59%)
+/ size = (12%, 12%)
+/ erase = false
+</picture>
