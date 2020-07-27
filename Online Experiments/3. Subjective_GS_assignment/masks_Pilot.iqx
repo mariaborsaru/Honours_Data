@@ -1,0 +1,52 @@
+﻿<item masks>
+/1 = "mask1.jpg"
+/2 = "mask2.jpg"
+/3 = "mask3.jpg"
+/4 = "mask4.jpg"
+/5 = "mask5.jpg"
+</item>
+
+<picture mask1>
+/items = masks
+/select = noreplacenorepeat
+/ position = (values.x_pos, values.y_pos)
+/ width = 50
+/ height = 50
+/ size = (55%, 55%)
+</picture>
+
+<picture mask2>
+/items = masks
+/select = noreplacenorepeat
+/ position = (values.x_pos, values.y_pos)
+/ width = 50
+/ height = 50
+/ size = (55%, 55%)
+</picture>
+
+<picture mask3>
+/items = masks
+/ select = noreplacenorepeat
+/ position = (values.x_pos, values.y_pos)
+/ width = 50
+/ height = 50
+/ size = (55%, 55%)
+</picture>
+
+<picture mask4>
+/items = masks
+/select = noreplacenorepeat
+/ position = (values.x_pos, values.y_pos)
+/ width = 50
+/ height = 50
+/ size = (55%, 55%)
+</picture>
+
+<picture mask5>
+/items = masks
+/select = noreplacenorepeat
+/ position = (values.x_pos, values.y_pos)
+/ width = 50
+/ height = 50
+/ size = (55%, 55%)
+</picture>
