@@ -1,0 +1,308 @@
+﻿<include>
+/ file = "instructions_GS_266.iqx"
+/ file = "response_elements_GS.iqx"
+/ file = "masks_Pilot.iqx"
+/ file = "wordset_MOST_GS_all.iqx"
+/ file = "pictures_Pilot.iqx"
+/ file = "stimulus_pairs_random_quad.iqx"
+</include>
+
+*************************************************************************************
+
+first, include all necessary dependencies above
+
+
+next, define key values, trial types, and events
+
+*************************************************************************************
+
+<values>
+/ wordcount = 0
+/ imagecount = 0
+/ totalwords = 6
+/ totalimages = 40
+/ imageName = "placeholder_image"
+/ currentWord = "placeholder_descriptor"
+/ x_pos = 0%
+/ y_pos = 0%
+</values>
+
+<data>
+/ columns=[subject, blockcode, trialcode, trialnum, latency, response, values.imageName, 
+stimulusitem, stimulusnumber, stimulusitem, stimulusnumber, stimulusitem, stimulusnumber, 
+stimulusitem, stimulusnumber, stimulusitem, stimulusnumber, stimulusitem, stimulusnumber, 
+stimulusitem, stimulusnumber, stimulusitem, stimulusnumber, stimulusitem, stimulusnumber, 
+stimulusitem, stimulusnumber, stimulusitem, stimulusnumber, stimulusitem, stimulusnumber, 
+stimulusitem, stimulusnumber, stimulusitem, stimulusnumber, stimulusitem, stimulusnumber, 
+stimulusitem, stimulusnumber, stimulusitem, stimulusnumber, stimulusitem, stimulusnumber, 
+stimulusitem, stimulusnumber 
+]
+</data>
+
+<text progress>
+/ items = ("Word <%values.wordcount%> of <%values.totalwords%>")
+/ position = (50%, 87%)
+/ size = (20%, 10%)
+/ erase = false
+</text>
+
+<text imNum>
+/ items = ("Image <%values.imagecount%> of <%values.totalimages%>")
+/ position = (50%, 90%)
+/ size = (20%, 10%)
+/ erase = false
+</text>
+
+<text reminder_start>
+/ items = ("Click the center square to proceed to the REAL trials")
+/ position = (50, 45)
+/ erase = false
+</text>
+
+<text reminder_practice>
+/ items = ("Click the center square to proceed to the PRACTICE trials")
+/ position = (50, 45)
+</text>
+
+<text reminder_break>
+/ items = ("Take a small break. 
+
+When you're ready click the center square to proceed to the next set of  REAL trials")
+/ position = (50, 45)
+/ erase = false
+</text>
+
+
+
+<trial reminder_practice>
+/ stimulusframes = [1= reminder_practice, reveal]
+/ inputdevice = mouse
+/ validresponse = (reveal)
+</trial>
+
+<trial reminder_start>
+/ stimulusframes = [1= reminder_start, reveal]
+/ inputdevice = mouse
+/ validresponse = (reveal)
+</trial>
+
+<trial reminder_break>
+/ stimulusframes = [1= reminder_break, reveal]
+/ inputdevice = mouse
+/ validresponse = (reveal)
+</trial>
+
+<trial practice>
+/ ontrialbegin = [
+	values.imageName = picture.practice_pics.currentitem;
+	values.wordcount = 0;
+	values.totalwords = 6;	
+	values.imagecount +=1;
+	values.totalimages = 3;
+	list.x.reset();
+	list.y.reset();
+	values.x_pos = list.x.nextvalue;
+	values.y_pos = list.y.nextvalue;
+]
+/ stimulustimes = [
+	0 = focuspoint;
+	1234 = practice_pics;
+	1500 = mask1;
+	1625 = mask2;
+	1750 = mask3;
+	1875 = mask4;
+	2000 = mask5;
+	]
+/ timeout = 1500
+/ branch = [
+	trial.centre_mouse
+]
+</trial>
+
+<trial test>
+/ ontrialbegin = [
+	values.imageName = picture.stimuli.currentitem;
+	values.wordcount = 0;
+	values.imagecount +=1;
+	values.totalwords = 6;
+	values.totalimages = 40;
+	list.x.reset();
+	list.y.reset();
+	values.x_pos = list.x.nextvalue;
+	values.y_pos = list.y.nextvalue;
+]
+/ stimulustimes = [
+	0 = focuspoint;
+	1234 = stimuli;
+	1500 = mask1;
+	1625 = mask2;
+	1750 = mask3;
+	1875 = mask4;
+	2000 = mask5;
+	]
+/ timeout = 2000
+/ timeout = 1500
+/ branch = [
+	trial.centre_mouse
+]
+</trial>
+
+
+*************************************************************************************
+
+the centre_mouse trial fits between each picture and descriptor presentation
+
+
+the purpose is to re-centre the mouse to avoid repetition bias
+
+*************************************************************************************
+
+<trial centre_mouse>
+/ stimulustimes = [
+	0 = no_1, no_2, no_3, no_4, yes_1, yes_2, yes_3, yes_4, global, specific, progress, imNum, very_global, very_specific, less_global, less_specific, reveal;
+]
+/ inputdevice = mouse
+/ validresponse = (reveal)
+</trial>
+
+*************************************************************************************
+
+the present and absent words will be presented in a random order
+
+
+these trials will be repeated until all word lists have been exhausted
+
+*************************************************************************************
+
+<trial practice_trial>
+/ ontrialbegin = [
+	if(values.wordcount == 6 && values.imagecount == 3)
+	values.imagecount = 0;
+	values.imageName = picture.practice_pics.currentitem;
+	values.wordcount += 1;
+	values.currentWord = list.practice_words.currentvalue;
+]
+/ stimulusframes = [
+	1 = no_1, no_2, no_3, no_4, yes_1, yes_2, yes_3, yes_4, global, specific, progress, imNum, very_global, very_specific, less_global, less_specific, reveal;
+	2 = list.practice_words;
+	]
+/ inputdevice = mouse
+/ validresponse = (no_1, no_2, no_3, no_4, yes_1, yes_2, yes_3, yes_4)
+/ branch = [
+	trial.centre_mouse
+]
+</trial>
+
+<trial reset>
+/ ontrialbegin = [
+	values.wordcount = 0;
+	values.imagecount = 0;
+]
+/ timeout = 200
+</trial>
+
+<trial present_trial>
+/ ontrialbegin = [
+	values.imageName = picture.stimuli.currentitem;
+	values.wordcount += 1;
+	values.currentWord = list.present_words.currentvalue;
+]
+/ stimulusframes = [
+	1 = no_1, no_2, no_3, no_4, yes_1, yes_2, yes_3, yes_4, global, specific, progress, imNum, very_global, very_specific, less_global, less_specific, reveal;
+	2 = list.present_words;
+	]
+/ inputdevice = mouse
+/ validresponse = (no_1, no_2, no_3, no_4, yes_1, yes_2, yes_3, yes_4)
+/ branch = [
+	trial.centre_mouse
+]
+</trial>
+
+
+*************************************************************************************
+
+next, define the present and absent word list properties
+
+*************************************************************************************
+
+<list practice_words>
+/ items = (text.prac1, text.prac2, text.prac3)
+/ selectionmode = picture.practice_pics.currentindex
+/ selectionrate = block
+</list>
+
+<list present_words>
+/ items = (text.p1,text.p2,text.p3,text.p4,text.p5,text.p6,text.p7,text.p8,
+			text.p9,text.p10,text.p11,text.p12,text.p13,text.p14,text.p15,
+			text.p16,text.p17,text.p18,text.p19,text.p20,text.p21,text.p22,
+			text.p23,text.p24,text.p25,text.p26,text.p27,text.p28,text.p29,
+			text.p30,text.p31,text.p32,text.p33,text.p34,text.p35,text.p36,
+			text.p37,text.p38,text.p39,text.p40)
+/ selectionmode = picture.stimuli.currentindex
+/ selectionrate = block
+</list>
+
+<list absent_words>
+/ items = (text.a1,text.a2,text.a3,text.a4,text.a5,
+			text.a6,text.a7,text.a8,text.a9,text.a10,text.a11,text.a12,
+			text.a13,text.a14,text.a15,text.a16,text.a17,text.a18,text.a19,
+			text.a20,text.a21,text.a22,text.a23,text.a24,text.a25,text.a26,
+			text.a27,text.a28,text.a29,text.a30,text.a31,text.a32,text.a33,
+			text.a34,text.a35,text.a36,text.a37,text.a38,text.a39,text.a40)
+/ selectionmode = picture.stimuli.currentindex
+/ selectionrate = block
+</list>
+
+
+<list y>
+/ items = (25%, 75%)
+/ selectionmode = random
+/ selectionrate = trial
+</list>
+
+<list x>
+/ items = (20%, 80%)
+/ selectionrate = trial
+/ selectionmode = random
+</list>
+
+*************************************************************************************
+
+note: the present words are yolked to specific image numbers with /selectionmode
+
+
+now, we can simply present the stimuli in randomised order (1-picture, then 80-Qs)
+
+*************************************************************************************
+
+<block practiceBlock>
+/ trials = [1=practice; 2-7=trial.practice_trial]
+</block>
+
+<block reset>
+/ trials = [1=reset]
+</block>
+
+<block testBlock>
+/ trials = [1=test; 2-7=trial.present_trial]
+</block>
+
+<block reminder_practice>
+/ trials = [1= reminder_practice]
+</block>
+
+
+<block reminder_start>
+/ trials = [1= reminder_start]
+</block>
+
+
+<block reminder_break>
+/ trials = [1= reminder_break]
+</block>
+
+
+<expt>
+/ blocks=[1=reminder_practice; 2-4=practiceBlock; 5=reset; 6=reminder_start; 7-26=testBlock; 27=reminder_break; 28-47=testBlock]
+/ preinstructions = (block1_prepage)
+</expt>
